@@ -1,7 +1,8 @@
-print('Как зовут главных героев компьютерной игры Minecraft?')
-a = input('Имя первого героя: ')
-b = input('Имя второго героя: ')
-if (a == 'Стив' and b == 'Алекса') or (b == 'Стив' and a == 'Алекса') :
-    print('Верно')
+n = int(input())
+k = int(input())
+if n < k:
+    print(n)
+elif k < n:
+    print(k)
 else:
-    print('Неверно')
+    print(k)
