@@ -1,7 +1,7 @@
-frst_tm, scnd_tm = map(int, input().split())
-if frst_tm < scnd_tm:
-    print(scnd_tm)
-elif scnd_tm < frst_tm:
-    print(frst_tm)
-else:
-    print(int(scnd_tm != frst_tm))
+k, a, s = map(int, input().split())
+if k >= a and k >= s:
+    print(k)
+elif a >= k and a >= s:
+    print(a)
+elif s >= k and s >= a:
+    print(s)

@@ -1,7 +1,7 @@
-n, k = map(int, input().split())
-if n < k:
-    print('Первому повезло меньше')
-elif k < n:
-    print('Второму повезло меньше')
+frst_tm, scnd_tm = map(int, input().split(':'))
+if frst_tm < scnd_tm:
+    print(2)
+elif scnd_tm < frst_tm:
+    print(1)
 else:
-    print('Одинаковый улов')
+    print(int(scnd_tm != frst_tm))
